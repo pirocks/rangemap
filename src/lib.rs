@@ -144,6 +144,7 @@ mod stupid_range_map;
 pub use inclusive_map::RangeInclusiveMap;
 pub use inclusive_set::RangeInclusiveSet;
 pub use map::RangeMap;
+pub use map::IntoIter;
 pub use set::RangeSet;
 pub use std_ext::{StepFns, StepLite};
 

@@ -1,3 +1,21 @@
+### v1.0.1 (2022-01-29)
+
+- **Fixes**:
+    - Fix empty gaps returned by `Gaps` iterator for `RangeMap`, and incorrect gaps returned by `Gaps` iterator for `RangeInclusiveMap`.
+
+### v1.0.0 (2022-01-28)
+
+It's time. (No functional change.)
+
+
+### v0.1.14 (2021-11-16)
+
+- **Features**:
+    - Expose nameable types for iterators: `Iterator`, `IntoIterator`, `Gaps` (for each collection type).
+- **Changes**:
+    - Document overflow behaviour required by implementors of `StepLite` and `StepFns`.
+
+
 ### v0.1.13 (2021-08-25)
 
 - **Features**:
